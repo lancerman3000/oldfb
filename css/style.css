@@ -1,96 +1,90 @@
-*{
+body{
 	padding: 0;
 	margin: 0;
-}
-.header{
-	height: 53px;
-	background: #3b5998;	
-}
-.header__logo{
-
-	float: left;
-	width: 184px;
-	height: 53px;
-}
-.header__form{
-	float: left;
-	margin: 14px 0 0 0;
-}
-.header__form input{
-	line-height: 50px;
-}
-.header__nav{
-	margin: 0 auto; 
-	float: right;
-}
-.header__nav ul{
-	padding: 0;
-	margin: 0;
-	display: block;
-	margin-right: 100px;  
-}
-.header__nav li{
-	float: left;
-	display: block;
-	margin: 10px 10px 0 0;
+	font-size: 10px;
 }
 a {
 	text-decoration: none;
 	color: #fff;
 	font-size: 14px;
 }
-.round{
-	height: 20px;
-	width: 20px;
-	border-radius: 3px;
-	border: 1px solid white;
-	margin: 0 5px 15px 0;
-	float: left;
-}
-.round-r{
-	height: 20px;
-	width: 20px;
-	border-radius: 3px;
-	border: 1px solid white;
-	margin: 0 0 0 5px;
-	float: right;
-}
-.menu{
-	width: 184px;
-	height: 100%;
+header{
+	display: flex;
 	background: #3b5998;
+	height: 50px;
+	justify-content: space-between;
+	padding: 0 10% 0 5%;
 }
-.menu ul{
-	margin: 0;
-	padding: 0;
+a{
+	text-decoration: none;
+	color: white;
 }
-.menu li { 
-	display: block;
-	height: 30px;
-	margin: 0 0 10px 0;
+.nav li{
+	display: inline-block;
+	padding: 0 4px;
+	border-left: 1px solid gray;
 }
-.round-m{
-	height: 11px;
-	width: 11px;
-	border-radius: 3px;
-	border: 1px solid white;
-	float: left;
-	margin: 0 15px 0 28px;
-	display: block;
+.nav li:first-child{
+	border-left: 0;
 }
-.pic{
+.nav li:nth-child(6){
+	padding-right: 10px;
+}
+.nav li:nth-child(7){
+	padding-left: 10px;
+}
+.nav li a img{
+	width: 20px;
+	height: 20px;
+	border-radius: 20%;
+	margin: 0 3px;
+	vertical-align: middle;
+	margin-bottom: 2.5px;
+}
+.conteiner{
+	display: flex;
+}
+.aside1{
+	width: 180px;
+	height: 1000px;
+	background: #395593;
+}
+
+.sarah{
+ background: #3d62a0;	
+ height: 60px;
+ margin: 5px 0 10px 20px;
+ padding-top: 10px;
+}
+.sarah img{
 	height: 40px;
-	width: 40px;
-	border: 1px solid white;
-	float: left;
-	margin: 0 10px 0 25px;
+	visibility: 40px;
+	vertical-align: middle;
+	margin: 10px;
+	border-radius: 50%;
 }
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
+
+.aside1 li{
+	display: block;
+	text-align: left;	
+
 }
-.memu__start{
-	text-align: center;
-	margin: 0 20px;
+.list{
+	padding-left: 25px;
+	margin: 13px 0;
+}
+.list img{
+	vertical-align: middle;
+	margin: 5px 5px 7.5px 5px;
+	width: 16px;
+	height: 16px;
+
+}
+.main{	
+	display: flex;
+}
+.main_top{
+	height: 200px;
+	width: 850px;
+	background: gray;
 }
