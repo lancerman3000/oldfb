@@ -1,50 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="css/style.css">
-	<title>oldstyle FB page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sarah Connor - FaceBook</title>
 </head>
 <body>
-	<header>
-		<img src="img/logo.jpg" alt="" class="logo">
-		<nav class="nav">
-			<ul>
-				<li><a href="#"><img src="img/o.jpg" alt="">Sarah</a></li>
-				<li><a href="#">Home <img src="img/o.jpg" alt=""></a></li>
-				<li><a href="#">Find Friends</a></li>
-				<li><a href="#"><img src="img/o.jpg" alt=""></a></li>
-				<li><a href="#"><img src="img/o.jpg" alt=""></a></li>
-				<li><a href="#"><img src="img/o.jpg" alt=""></a></li>
-				<li><a href="#"><img src="img/o.jpg" alt=""></a></li>
-				<li><a href="#"><img src="img/o.jpg" alt=""></a></li>
-			</ul>
-		</nav>
-	</header>
-	<div class="conteiner">
-		<aside class="aside1">
-			<div class="sarah">
-				<a href="#">
-					<img src="img/o.jpg" alt="">Sarah
-				</a>
-			</div>
-			<div class="list"><a href="#"><img src="img/o.jpg" alt="">My nwesfeed</a></div>
-			<div class="list"><a href="#"><img src="img/o.jpg" alt="">My friends</a></div>
-			<div class="list"><a href="#"><img src="img/o.jpg" alt="">My messages</a></div>
-			<div class="list"><a href="#"><img src="img/o.jpg" alt="">My photos</a></div>
-			<div class="list"><a href="#"><img src="img/o.jpg" alt="">My videos</a></div>
-			<div class="list"><a href="#"><img src="img/o.jpg" alt="">My likes</a></div>
-			<div class="list"><a href="#"><img src="img/o.jpg" alt="">My apps</a></div>
-			<div class="list"><a href="#"><img src="img/o.jpg" alt="">My notifications</a></div>
-		</aside>
-		<main class="main"></main>
-		<aside class="aside2"></aside>
-		
-		<main class="main">
-			<div class="main_top">
-				
-			</div>
-		</main>
-	</div>
+    <div class="all">
+        <!-- голова -->
+        <header class="header">
+            <img src="img/logo.jpg" alt="" class="logo">
+            <form action="#">
+                <input type="text" class="search" placeholder="ебобо">
+                <button><img src="img/i.jpg" alt=""></button>
+    
+            </form>
+            <nav class="nav">
+                <div class="nav__element">
+                    <a href="#">
+                        <img src="img/o.jpg" alt="">Sarah
+                    </a>
+                </div>
+<!-- здесь я не понял как у меня оно получилось -->
+                <div class="nav__element">
+                    <a href="#">
+                        Home <img src="img/o.jpg" alt="">
+                    </a>
+                </div>
+                <div class="nav__element">
+                    <a href="#">
+                        Find Friends
+                        <img src="img/o.jpg" alt="">
+                        <img src="img/o.jpg" alt="">
+                        <img src="img/o.jpg" alt="">
+                    </a>
+                </div>
+                <div class="nav__element">
+                    <a href="#">
+                        <img src="img/o.jpg" alt="">
+                        <img src="img/o.jpg" alt="">
+                    </a>
+                </div>
+                
+            </nav>
+        </header>
+        <!-- / голова -->
+        <!-- основной блок -->
+        <div class="main">
+        <!-- левое меню -->
+            <div class="left">
+                <div class="usercell">
+                    <img src="img/o.jpg" alt="">Sarah
+                </div>
+                <div class="nav__element">
+                    <a href="#">
+                        <img src="img/o.jpg" alt="">My nwesfeed
+                    </a>
+                </div>
+                <div class="nav__element">
+                    <a href="#">
+                        <img src="img/o.jpg" alt="">My friends
+                    </a>
+                </div>
+                <div class="nav__element">
+                    <a href="#">
+                        <img src="img/o.jpg" alt="">My messages
+                    </a>
+                </div>
+                <div class="nav__element">
+                    <a href="#">
+                        <img src="img/o.jpg" alt="">My photos
+                    </a>
+                </div>
+                <div class="nav__element">
+                    <a href="#">
+                        <img src="img/o.jpg" alt="">My videos
+                    </a>
+                </div>
+                <div class="nav__element">
+                    <a href="#">
+                        <img src="img/o.jpg" alt="">My likes
+                    </a>
+                </div>
+                <div class="nav__element">
+                    <a href="#">
+                        <img src="img/o.jpg" alt="">My apps
+                    </a>
+                </div><div class="nav__element">
+                    <a href="#">
+                        <img src="img/o.jpg" alt="">My notifications
+                    </a>
+                </div>
+
+
+            </div>
+        <!-- /левое меню -->
+        <!-- середина -->
+        <div class="center">
+            <div class="center_top">
+                <div class="add-cover">
+                    <img src="img/o.jpg" alt="">
+                    Add Cover Photo
+                </div>
+                <div class="top-area">
+                    <div class="user-photo">
+                        <img src="img/o.jpg" alt="">
+                        <h1 class="username">Sarah Connor</h1>
+                        <div class="update-info">
+                            Updafe Info
+                        </div>
+                        <div class="active-log">
+                            View Acive Log
+                        </div>
+                        <div class="tridot">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="center_menu">
+                <div class="center_menu_items">Timeline</div>
+                <div class="center_menu_items">About</div>
+                <div class="center_menu_items">Friends</div>
+                <div class="center_menu_items">Photos</div>
+                <div class="center_menu_items">More</div>
+            </div>
+            <div class="wall">
+                <div class="wall_left"></div>
+                <div class="wall_right"></div>
+            </div> -->
+
+
+        </div>
+    
+
+
+        <!-- /середина -->
+            <div class="right"></div>
+
+        
+        
+        
+        <!--/ основной блок -->
+    </div>
+    </div>
 </body>
 </html>
