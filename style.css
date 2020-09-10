@@ -177,6 +177,7 @@ form input{
     border-radius: 50%;
     background: #000;    
 }
+
 .center_menu{
     display: flex;
     justify-content: space-around;
@@ -195,7 +196,11 @@ form input{
     border-left: 1px solid #cfcfcf;
 
 }
-
+.wall{
+    display: flex;
+    justify-content: space-between;
+}
+/* левая стена */
 .wall_left{
     width: 316px;
     margin: 10px;
@@ -248,6 +253,113 @@ margin-left: 25px;}
 .fitem2{
     background-image: url(img/friend2.png);
 }
+/* /левая стена */
+
+/* правая стена */
+
+.wall_right{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.statusadd{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dadada;
+    margin-top: 16px;
+}
+.statusadd_btns{
+    display: flex;
+    height: 35px;
+    background: #f4f8fe;
+
+    
+}
+.statusadd_btns_btn{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+.statusadd_btns_btn img{
+    margin-right: 5px;
+}
+.statusadd_input{
+    height: 50px;
+    border-top: 1px solid #dadada;
+}
+.statusadd_input input{
+    height: 46px;
+    width: 490px;
+    border: none;
+    padding: 0 10px;
+    background-origin: border-box;
+}
+.status{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.statushead{
+    display: flex;
+    align-items: center;
+}
+.statushead img{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+.statushead_info_username{
+    color: #4e5a79;
+    display: flex;
+    align-items: center;
+}
+.statushead_info_username p{
+    color: #dadada;
+    padding-left: 10px;
+}
+.statushead_info_date{
+    color: #dadada;
+}
+.statusfooter{
+    display: flex;
+    flex-direction: column;
+}
+.sharebar{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.statusfooter .dot{
+    margin: 0 5px;
+    background: #dadada;
+}
+.commentbar{
+    height: 49px;
+    margin-top: 10px;
+    border-top: 1px solid #dadada;
+    background: #f7f7f9;
+    display: flex;
+    align-items: center;
+}
+.commentbar input{
+    margin-left: 10px;
+    height: 30px;
+    width: 400px;
+    border: 1px solid #dadada;
+    padding-left: 10px;
+}
+
+.greybar{
+    height: 0;
+    width: 95%;
+    border-top: 1px solid #dadada;
+    align-self: center;
+    margin-top: 10px;
+}
+/* /правая стена */
+
+
+
 /* /середина */
 /* список контактов */
 
