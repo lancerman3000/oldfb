@@ -20,7 +20,7 @@ h1{
     display: flex;
     flex-direction: row;
     width: 100%;
-    background: #3b5998;
+    background: #25427a;
     justify-content: space-between;
     flex-wrap: wrap;
     /* border: 1px solid red; */
@@ -80,9 +80,8 @@ form input{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background: #3b5998;
+    background: #25427a;
     width: 180px;
-    height: 100%;
 }
 .usercell{  
     margin: 15px 0 0 15px;
@@ -118,34 +117,24 @@ form input{
 }
 .center_top{
     height: 145px;
-    background: rgb(90, 53, 53);
+    background: url(img/centralbg.png) no-repeat;
+    background-size: 100%;
     display: flex;
     flex-direction: column;
-    /* border: 1px solid rgb(255, 0, 0); */
 
 }
 .add-cover{
     display: flex;
     align-items: center;
-    /* border: 1px solid rgb(94, 255, 0); */
     box-sizing: border-box;
     width: 170px;
     padding: 3px 10px;
     margin: 10px;
-    background: rgba(87, 86, 86, 0.836);
-}
-.add-cover img{
-    margin-right: 5px;
-    border-radius: 20%;
-    opacity: 0.5;
-    height: 65%;
 }
 .top-area{
     display: flex;
-    /* border: 1px solid rgb(0, 4, 255); */
     padding: 0;
     height: 90px;
-    /* align-items: flex-end; */
 }
 .user-photo{
     display: flex;
@@ -154,8 +143,6 @@ form input{
 }
 .user-photo img{
     height: 100px;
-    border-radius: 50%;
-    border: 1px solid black;
     position: relative;
     top: 15%;
     margin: 0 10px;
@@ -175,18 +162,132 @@ form input{
 .tridot{
     width: 30px;
     height: 24px;
+    box-sizing: border-box;
     background: #fff;
     margin-bottom: 10px;
     border-left: 1px solid #000;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 0 5px;
 }
 .dot{
-    height: 5px;
-    width: 5px;
+    height: 4px;
+    width: 4px;
     border-radius: 50%;
-    border: 1px solid black;
+    background: #000;    
+}
+.center_menu{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    border: 1px solid #cfcfcf;
+    border-top: none;
+}
+.center_menu_block{
+    display: flex;
+}
+.center_menu_items{
+    border-right: 1px solid #cfcfcf;
+    padding: 10px 17px;
+}
+.center_menu_items:first-child{ 
+    border-left: 1px solid #cfcfcf;
+
+}
+
+.wall_left{
+    width: 316px;
+    margin: 10px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+.locations{
+
+}
+.location_item{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+.wall a{
+color: #b4c2da;
+}
+.location_item:last-child{
+    align-items: flex-start;
+}
+.graytext{
+    color: #dadada;
+}
+.friendslink{
+    display: flex;
+    align-items: center;
+    color: #dadada;
+margin-left: 25px;}
+.friendslink .dot{
+    background: #dadada;
+}
+.friendlist{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.friendlist_item{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+}
+.fitem1{
+    background-image: url(img/friend1.png);
+}
+.fitem2{
+    background-image: url(img/friend2.png);
 }
 /* /середина */
+/* список контактов */
+
+.contact_list{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: auto;
+    box-sizing: border-box;
+    background: #eaebef;
+}
+.contact_list_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.contact_list_item img{
+    margin: 10px;
+}
+.contact_list_item_name{
+    display: flex;
+    align-items: center;
+
+    
+}
+.green {
+    color: #518f26;
+    display: flex;
+    align-items: center;
+}
+.online_dot{
+    height: 8px;
+    width: 8px;
+    background: #518f26;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+/* /список контактов */
+ 
+
 /* /основной блок */
