@@ -1,7 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     
+}
+html, body{
+    height: 100%;
 }
 a{
     text-decoration: none;
@@ -14,6 +18,7 @@ h1{
 .all   {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 /* голова */
 .header{
@@ -23,34 +28,52 @@ h1{
     background: #25427a;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* border: 1px solid red; */
+    height: 5%;
+    min-height: 50px;
 
 } 
 .logo{
     margin-left: 3%;
 }
-form img{
-    height: 30px;
-    position: relative;
-    top: 10px;
+.searchForm{
+    display: flex;
+    align-items: center;
 }
-form input{
-    height: 100%;
+.search{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
     
 }
+.button1{
+    padding: 5px;
+    margin: 5px;
+    background-color: transparent;
+    border: 0;
+    background-image: url(img/search.svg);
+    width: 16px;
+    height: 16px;
+}
+
+
 .nav{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     margin-right: 20%;
+    box-sizing: border-box;
 
 }
 .nav__element{
     height: 20px;
-    padding: 5px;
+    padding: 0 5px;
     display: flex;
     flex-wrap: wrap;
     border-right: 1px solid gray;
+}
+.nav__element:hover{
+    background-color: rgba(255,255,255, 0.1);
 }
 .nav__element:last-child{
     border: 0;
@@ -72,8 +95,8 @@ form input{
 .main{
     display: flex;
     flex-direction: row;
-    /* border: 1px solid red; */
-    
+    justify-content: space-between;
+    height: 95.8%;    
 }
 /* левое меню */
 .left {
@@ -84,9 +107,7 @@ form input{
     width: 180px;
 }
 .usercell{  
-    margin: 15px 0 0 15px;
-    width: 70%;
-    /* height: 62px; */
+    width: 100%;
     background: rgb(103, 134, 218);
     display: flex;
     justify-content: flex-start;
@@ -102,7 +123,7 @@ form input{
 }
 .left .nav__element{
     
-    margin: 15px 0 0 15px;
+    margin: 15px 0 0 0;
     border: none;
 }
 
@@ -187,6 +208,7 @@ form input{
 }
 .center_menu_block{
     display: flex;
+    margin-left: 12%;
 }
 .center_menu_items{
     border-right: 1px solid #cfcfcf;
@@ -199,11 +221,12 @@ form input{
 .wall{
     display: flex;
     justify-content: space-between;
+    height: 100%;
 }
 /* левая стена */
 .wall_left{
     width: 316px;
-    margin: 10px;
+    margin: 0 10px;
     margin-bottom: 0;
     display: flex;
     flex-direction: column;
@@ -241,7 +264,7 @@ margin-left: 25px;}
     margin-top: 15px;
 }
 .friendlist_item{
-    height: 100px;
+    height: 90px;
     width: 100px;
     display: flex;
     align-items: flex-end;
@@ -260,7 +283,7 @@ margin-left: 25px;}
 .wall_right{
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 65%;
 }
 .statusadd{
     display: flex;
@@ -367,7 +390,6 @@ margin-left: 25px;}
     display: flex;
     flex-direction: column;
     width: 200px;
-    margin-left: auto;
     box-sizing: border-box;
     background: #eaebef;
 }
@@ -403,3 +425,7 @@ margin-left: 25px;}
  
 
 /* /основной блок */
+footer{
+    height: 50px;
+    background: #a5a5a5;
+}
